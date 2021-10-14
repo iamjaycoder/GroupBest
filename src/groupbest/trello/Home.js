@@ -2,13 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import Search from "./search";
 import Header from "./header";
-import HeroContent from '../HeroContent'
+import HeroContent from "../HeroContent";
+import { PeterScreen } from "../Peter/PeterScreen";
+
 const Home = () => {
   return (
     <Container>
       <Header />
       <HeroContent />
       <Search />
+      <PeterScreen />
     </Container>
   );
 };
