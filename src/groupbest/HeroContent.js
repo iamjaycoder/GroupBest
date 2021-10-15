@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Img from './asset/hero.png'
+import Search from "./Mayowa/search";
 
 const HeroContent = () => {
     return ( 
@@ -12,6 +13,7 @@ const HeroContent = () => {
                 <Sub>
                 Collaborate, manage projects, and reach new productivity peaks. From high rises to the home office, the way your team works is unique—accomplish it all with Trello.
                 </Sub>
+                <Search />
                 </ContentHead>
                 <Image src={Img}/>
            </Wrapper>
