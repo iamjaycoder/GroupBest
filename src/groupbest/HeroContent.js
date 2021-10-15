@@ -26,7 +26,7 @@ const ContentHead = styled.div`
 display:flex;
 flex-direction:column;
 margin:0 30px;
-width:600px;
+width:700px;
 padding: 0 70px;
 `
 const Container = styled.div`
@@ -36,7 +36,7 @@ min-height: 100vh;
 `;
 const Wrapper = styled.div`
 width: 100%;
-height: 100%;
+height: 100vh;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -56,8 +56,8 @@ font-family: Segoe UI;
 `;
 
 const Image = styled.img`
-width:450px;
-height:600px;
-margin-top: 60px;
-padding:0 70px;
+width:400px;
+height:500px;
+margin-top: 10px;
+margin-right: 40px;
 `;

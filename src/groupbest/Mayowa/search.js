@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import { AiOutlineLine } from "react-icons/ai";
 
 const Search = () => {
   return (
     <Container>
       <Searchsection>
         <Input type="text" placeholder="Email" />
-        <Button>Sign up-its free </Button>
+        <Button>Sign up <AiOutlineLine /> its free </Button>
       </Searchsection>
     </Container>
   );
@@ -23,6 +24,7 @@ const Searchsection = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 48px;
+  // flex-wrap:wrap;
 `;
 const Input = styled.input`
   width: 100%;
@@ -57,7 +59,7 @@ const Button = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  margin-top: 2px;
+  margin-top: 1px;
   transition: all 350ms;
 
   :hover{
