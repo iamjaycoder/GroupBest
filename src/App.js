@@ -1,8 +1,11 @@
-import Home from './groupbest/trello/Home'
-function App() {
+import React from 'react';
+import Header from "./groupbest/trello/header";
+import Mine from "./groupbest/Mine";
+const App = () => {
   return (
-    <div className="App">
-      <Home/>
+    <div>
+      <Header/>
+      <Mine/>
     </div>
   );
 }
