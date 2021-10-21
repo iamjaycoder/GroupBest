@@ -28,6 +28,7 @@ const FeaturesContent = () => {
                              </Sub>
                     </Content1>
                 </ContentHead>
+            
 
                 <ContentHead1>
                     <Image2 src={img1}/>
