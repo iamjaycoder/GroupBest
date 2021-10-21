@@ -3,12 +3,23 @@ import styled from "styled-components";
 import Search from "./search";
 import Header from "./header";
 import HeroContent from '../HeroContent'
+import FeaturesContent from "../jay/FeaturesContent";
+
+
+
+
+
 const Home = () => {
+
+  
+
   return (
     <Container>
       <Header />
       <HeroContent />
       <Search />
+      <FeaturesContent/>
+
     </Container>
   );
 };
