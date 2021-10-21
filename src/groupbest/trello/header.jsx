@@ -12,6 +12,7 @@ const Header = () => {
         </Nav>
       </Wrapper>
     </Container>
+    
   );
 };
 
@@ -68,7 +69,8 @@ const Button = styled.div`
   color: #f7ffff;
   font-size: 20px;
   display: flex;
-  align-items: center;
+  // align-items: center;
+  items-align:center;
   justify-content: center;
 
   :hover {
