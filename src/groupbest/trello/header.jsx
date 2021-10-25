@@ -2,18 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import img from "../asset/logo.svg";
 
-const Header = () => {
+const Header = ({ bg, bs }) => {
   return (
-    <Container>
+    <Container bg={bg} bs={bs}>
       <Wrapper>
-        <Logo src={img}/>
+        <Logo src={img} />
         <Nav>
           <Bar> Log in </Bar>
           <Button>Sign up</Button>
         </Nav>
       </Wrapper>
     </Container>
-    
   );
 };
 
@@ -22,7 +21,13 @@ export default Header;
 const Container = styled.div`
   width: 100%;
   height: 70px;
-  background: #eae6ff;
+  background: ${({ bg }) => (bg ? "white" : "transparent")};
+  box-shadow: ${({ bs }) => (bs ? " 2px 2px 2px 1px rgba(0, 0, 0, 0.1);" : "transparent")};
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 22;
+  transition: all 350ms;
 `;
 const Wrapper = styled.div`
   width: 100%;
@@ -59,22 +64,20 @@ const Bar = styled.div`
   font-family: sans-serif;
   text-decoration: underline;
 
-
   :hover {
     cursor: pointer;
   }
 `;
 const Button = styled.div`
-  background-color:#2F54FF;
+  background-color: #2f54ff;
   width: 85px;
   height: 35px;
   border-radius: 5px;
-  color: #FFFFFA;
+  color: #fffffa;
   font-size: 15px;
   font-family: sans-serif;
   display: flex;
-  // align-items: center;
-  items-align:center;
+  align-items: center;
   justify-content: center;
 
   :hover {
