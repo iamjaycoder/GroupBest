@@ -45,7 +45,7 @@ const SliderList = ({ quoteContent, name1, dept1, name2, dept2, img }) => {
           <ImgContainer>
             <TestiInfo>
               <About>
-                <Name fw>{name1}</Name> : <Dept fs>{dept1}y</Dept>
+                <Name fw>{name1}</Name> : <Dept fs>{dept1}</Dept>
               </About>
               <About>
                 <Name fs>{name2}</Name> : <Dept fw>{dept2}</Dept>

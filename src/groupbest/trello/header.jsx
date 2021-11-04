@@ -38,7 +38,7 @@ const Wrapper = styled.div`
 `;
 const Logo = styled.img`
   width: 200px;
-  height: 50px;
+  height: 40px;
   object-fit: contain;
   margin-left: 20px;
   // background-color : red;

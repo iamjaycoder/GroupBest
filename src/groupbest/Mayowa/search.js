@@ -7,7 +7,7 @@ const Search = () => {
     <Container>
       <Searchsection>
         <Input type="text" placeholder="Email" />
-        <Button>Sign up <AiOutlineLine /> its free </Button>
+        <Button>Sign up its free </Button>
       </Searchsection>
     </Container>
   );
@@ -16,7 +16,7 @@ const Search = () => {
 export default Search;
 
 const Container = styled.div`
-width:100%;
+  width: 100%;
 `;
 
 const Searchsection = styled.div`
@@ -48,12 +48,12 @@ const Input = styled.input`
 `;
 const Button = styled.div`
   height: 40px;
-  width: 300px;
+  width: 200px;
   background-color: #0065ff;
   border-color: #0065ff;
   border-radius: 5px;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -62,7 +62,7 @@ const Button = styled.div`
   margin-top: 1px;
   transition: all 350ms;
 
-  :hover{
+  :hover {
     background-color: blue;
   }
 `;

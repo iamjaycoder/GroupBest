@@ -6,6 +6,8 @@ import FeatureComponent from "../jay/FeaturesContent";
 import CardSection from "../Mayowa/Component2";
 import Hero from "../Bright/hero";
 import Sliders from "../Bright/slider";
+import Newsletter from "../Bright/newsletter";
+import Footer from "../Bright/footer";
 const Home = () => {
   const [changeHeader, setChangeHeader] = React.useState(false);
 
@@ -28,6 +30,8 @@ const Home = () => {
       <FeatureComponent />
       <ThirdCOmponent />
       <Sliders />
+      <Newsletter />
+      <Footer />
     </Container>
   );
 };
@@ -37,5 +41,4 @@ const Container = styled.div`
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  background: #eeebfd;
 `;
