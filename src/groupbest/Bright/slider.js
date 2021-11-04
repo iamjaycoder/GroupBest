@@ -56,7 +56,7 @@ const Sliders = () => {
             quoteContent="Every one loves it; it has democratized our finance function. In some ways Trello
         shattered hierachy and brought us together "
             name1="Bharath Sundar"
-            dept1="Finance, eBay<"
+            dept1="Finance, eBay"
             name2="Industry"
             dept2="eCommerce"
             img={ebayImg}
